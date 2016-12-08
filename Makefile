@@ -17,7 +17,7 @@ ODFLAGS = -h --syms -S
 
 all:
 	@ echo "path="$(PATH)
-	$(PATH)arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -T STM32F100C8_complexer.ld  main.c  StartUp_simple.s -o $(NAME).elf
+	$(PATH)arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -T STM32F100C8_simple.ld  main.c  StartUp_simple.s -o $(NAME).elf
 	$(PATH)arm-none-eabi-nm $(NAME).elf
 	
 	@ echo " "	

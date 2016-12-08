@@ -11,7 +11,6 @@
 vectors:
 			.word _stack
 			.word main
-greeting:
-			.string "Hello world"
+
 
 .end
