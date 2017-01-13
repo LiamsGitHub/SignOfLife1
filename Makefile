@@ -1,5 +1,5 @@
 # Project Name
-NAME=SignOfLife
+NAME=SignOfLife1
 
 ################### File Locations #####################
 include filePath
