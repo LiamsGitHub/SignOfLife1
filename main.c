@@ -23,7 +23,6 @@ int main(void)
 
   // Now pulse pin PA9 and PA10 in a loop. i=80000 is about 1sec
   int i=0;
-  int j=99;
 
   while(1) //
   {
